@@ -31,7 +31,7 @@
           <li>Hair_BrightRed</li>
           <li>Skin_DeepRed</li>
           <li>Skin_PaleRed</li>
-		  <li>Skin_Purple</li>
+	  <li>Skin_Purple</li>
           <li>Learning_Slow</li>
           <li>Nearsighted</li>
           <li>DarkVision</li>
@@ -139,7 +139,7 @@
             <li>Sleepy</li>
             <li>Delicate</li>
             <li>Libido_High</li>
-            <li>LitteredBirths</li>
+            <li>rjw_genes_littered_births</li>
             <li>Beauty_Pretty</li>
             <li>Beard_NoBeardOnly</li>
             <li>Ears_Cat</li>
