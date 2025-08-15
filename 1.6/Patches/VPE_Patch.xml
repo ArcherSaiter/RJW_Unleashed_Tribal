@@ -2,7 +2,7 @@
 <Patch> 
     <Operation Class="VEF.PatchOperationToggableSequence">
 		<enabled>True</enabled>
-		<label>Add psypowers</label>
+		<label>VPE abilities</label>
 		<mods>
             <li>Vanilla Psycasts Expanded</li>
         </mods>
