@@ -67,13 +67,38 @@
 			<li Class="PatchOperationAdd">
                 <xpath>Defs/XenotypeDef[defName="RJW_Races_Tribal_Lesser_Succubus"]/genes</xpath>
                 <value>
-                    <li MayRequire="sarg.alphagenes">AG_InnatePsylink</li>
+                    <li>AG_InnatePsylink</li>
                 </value>
             </li>
 			<li Class="PatchOperationAdd">
                 <xpath>Defs/XenotypeDef[defName="RJW_Races_Tribal_Higher_Succubus"]/genes</xpath>
                 <value>
-                    <li MayRequire="sarg.alphagenes">AG_InnatePsylink</li>
+                    <li>AG_InnatePsylink</li>
+                </value>
+            </li>
+        </operations>
+        </match>
+    </Operation>
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Psycast Expanded - Biotech Integration</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+                <xpath>Defs/XenotypeDef[defName="RJW_Races_Tribal_Lesser_Succubus"]/genes</xpath>
+                <value>
+                    <li>Gene_Warlord</li>
+					<li>Gene_Empath</li>
+					<li>Gene_Conflagrator</li>
+                </value>
+            </li>
+			<li Class="PatchOperationAdd">
+                <xpath>Defs/XenotypeDef[defName="RJW_Races_Tribal_Higher_Succubus"]/genes</xpath>
+                <value>
+                    <li>Gene_Warlord</li>
+					<li>Gene_Empath</li>
+					<li>Gene_Conflagrator</li>
                 </value>
             </li>
         </operations>
