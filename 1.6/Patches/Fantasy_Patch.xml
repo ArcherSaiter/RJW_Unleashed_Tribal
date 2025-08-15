@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch> 
+    <Operation Class="VEF.PatchOperationToggableSequence">
+		<enabled>True</enabled>
+		<label>Disable similar xenotypes</label>
+		<mods>
+            <li>Fantasy Races</li>
+        </mods>
+		<operations>
+			<!-- Similar Xenotype Removal -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/FactionDef[@Name="EFR_MixedTribeBase"]/xenotypeSet/xenotypeChances/EFR_Catgirl</xpath>
+                </li>
+				<li Class="PatchOperationRemove">
+                    <xpath>Defs/FactionDef[@Name="EFR_MixedTribeBase"]/xenotypeSet/xenotypeChances/EFR_Succubus</xpath>
+                </li>
+                <!-- Value Adjustment -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[@Name="EFR_MixedTribeBase"]/xenotypeSet/xenotypeChances/EFR_Oni</xpath>
+					<value>
+						<EFR_Oni>0.11</EFR_Oni>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[@Name="EFR_MixedTribeBase"]/xenotypeSet/xenotypeChances/EFR_Amazon</xpath>
+					<value>
+						<EFR_Amazon>0.09</EFR_Amazon>
+					</value>
+				</li>
+		</operations>
+	</Operation>
+</Patch>
