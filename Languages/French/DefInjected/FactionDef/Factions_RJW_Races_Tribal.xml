@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: peaceful succubi tribe -->
+  <RJW_Races_TribeCivil.label>Tribu pacifique de succubes</RJW_Races_TribeCivil.label>
+  <!-- EN: A tribe of peaceful succubi and catgirls that decided to join them. -->
+  <RJW_Races_TribeCivil.description>Une tribu de succubes pacifiques et de catgirls qui ont décidé de les rejoindre.</RJW_Races_TribeCivil.description>
+  <!-- EN: chief -->
+  <RJW_Races_TribeCivil.leaderTitle>Cheffe</RJW_Races_TribeCivil.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <RJW_Races_TribeCivil.messageDefendersAttacking>{0} de {1} attaquent votre {2}.</RJW_Races_TribeCivil.messageDefendersAttacking>
+  <!-- EN: tribal -->
+  <RJW_Races_TribeCivil.pawnSingular>tribale</RJW_Races_TribeCivil.pawnSingular>
+  <!-- EN: tribals -->
+  <RJW_Races_TribeCivil.pawnsPlural>tribales</RJW_Races_TribeCivil.pawnsPlural>
+
+  <!-- EN: agressive succubi tribe -->
+  <RJW_Races_TribeHostile.label>Tribu agressive de succubes</RJW_Races_TribeHostile.label>
+  <!-- EN: A tribe of agressive succubi and catgirls that decided to join them. -->
+  <RJW_Races_TribeHostile.description>Une tribu de succubes agressives et de catgirls qui ont décidé de les rejoindre.</RJW_Races_TribeHostile.description>
+  <!-- EN: chief -->
+  <RJW_Races_TribeHostile.leaderTitle>Cheffe</RJW_Races_TribeHostile.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <RJW_Races_TribeHostile.messageDefendersAttacking>{0} de {1} attaquent votre {2}.</RJW_Races_TribeHostile.messageDefendersAttacking>
+  <!-- EN: tribal -->
+  <RJW_Races_TribeHostile.pawnSingular>tribale</RJW_Races_TribeHostile.pawnSingular>
+  <!-- EN: tribals -->
+  <RJW_Races_TribeHostile.pawnsPlural>tribales</RJW_Races_TribeHostile.pawnsPlural>
+  
+</LanguageData>
